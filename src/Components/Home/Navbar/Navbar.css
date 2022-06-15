@@ -1,0 +1,19 @@
+.navlink li {
+    margin: 0px 10px;
+    font-size: 20px;
+
+}
+
+.navlink li:hover {
+    border-bottom: 1px solid black;
+    transition: .5s;
+}
+
+.navlink li a {
+    color: black;
+}
+
+nav {
+    border-bottom: 1px solid rgb(201, 200, 200);
+
+}

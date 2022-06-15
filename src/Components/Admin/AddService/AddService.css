@@ -1,0 +1,9 @@
+.add-service-content {
+  margin-top: 5rem;
+}
+
+@media (max-width: 600px) {
+  .add-service-content {
+    margin-top: 8rem;
+  }
+}

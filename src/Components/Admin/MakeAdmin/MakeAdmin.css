@@ -1,0 +1,9 @@
+.make-admin {
+    margin-top: 5rem;
+}
+
+@media (max-width: 600px) {
+    .make-admin {
+        margin-top: 8rem;
+    }
+}

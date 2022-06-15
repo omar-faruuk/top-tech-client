@@ -1,0 +1,21 @@
+#header {
+    background-image: url('../../../image/bg4.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+@media (max-width:600px) {
+    #header {
+        height: 52vh;
+    }
+
+    .header-text {
+        line-height: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+}

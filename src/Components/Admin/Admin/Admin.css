@@ -1,0 +1,13 @@
+#admin {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5rem;
+    /* margin-top: 5rem; */
+    overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+    #admin {
+        padding-bottom: 1rem;
+    }
+}

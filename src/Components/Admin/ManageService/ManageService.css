@@ -1,0 +1,18 @@
+.service-list {
+    margin-top: 5rem;
+}
+
+@media (max-width: 600px) {
+    .service-list {
+        margin-top: 7.5rem;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        width: 300px;
+        overflow: hidden;
+
+    }
+
+}

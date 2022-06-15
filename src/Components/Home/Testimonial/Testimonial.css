@@ -1,0 +1,43 @@
+.testimonial {
+  margin-top: 20rem;
+}
+
+@media (max-width:600px) {
+  .testimonial {
+    margin: 0;
+  }
+
+  .testimonial h4,
+  h1 {
+    text-align: center;
+  }
+}
+
+.swiper_wrapper {
+  padding: 0px 50px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+  text-align: left;
+}
+
+.swiper-button-next {
+  margin-top: 0px;
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  width: 45px;
+  height: 45px;
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  left: -40px;
+  width: 45px;
+  height: 45px;
+  transform: translateY(-50%);
+  margin-top: 0px;
+}
